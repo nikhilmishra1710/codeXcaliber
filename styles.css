@@ -260,7 +260,7 @@ body {
     }
 
     .faq-content {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .faq-preview .preview-box {
