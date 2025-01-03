@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #000;
     color: #fff;
     line-height: 1.6;
@@ -19,14 +19,16 @@ body {
 }
 
 .faq-header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .faq-header p {
+    font-family: 'Orbitron', sans-serif;
     color: #aaa;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -182,14 +184,41 @@ strong {
     text-decoration: underline;
 }
 
+.announcement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    font-family: 'Orbitron', sans-serif;
+
+
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f15a26;
+    background: #000;
+    margin: 0;
+    padding: 20px;
+    animation: fadeIn 3s infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 @media (max-width: 768px) {
     .faq-header h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .faq-header p {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     .project-container {
@@ -243,15 +272,19 @@ strong {
         top: 10px;
         right: 10px;
     }
+
+    .announcement {
+        font-size: 2.8rem;
+    }
 }
 
 @media (max-width: 480px) {
     .faq-header h1 {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
 
     .faq-header p {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 
     .project-container {
@@ -303,5 +336,9 @@ strong {
         font-size: 1.3rem;
         top: 8px;
         right: 8px;
+    }
+
+    .announcement {
+        font-size: 2.3rem;
     }
 }
