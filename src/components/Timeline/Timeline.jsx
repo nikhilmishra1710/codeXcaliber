@@ -55,11 +55,11 @@ export default function Vo() {
           {/* Center Line */}
           {
             width>1024 ? (
-              <div className="absolute z-[-1] lg:-top-8 xl:top-0 left-1/2 lg:h-[calc(100%+96px)] xl:h-[calc(100%+16px)] w-px -translate-x-1/2 bg-multi-gradient"/>
+              <div className="absolute lg:-top-8 xl:top-0 left-1/2 lg:h-[calc(100%+96px)] xl:h-[calc(100%+16px)] w-px -translate-x-1/2 bg-multi-gradient"/>
             ) : (
               <>
-                <div className="absolute z-[-1] left-1/2 xl:top-0 -top-8 h-8 w-px -translate-x-1/2 bg-gradient-to-b from-[#4285F4] to-[#34A853]"/>
-                <div className="absolute z-[-1] left-1/2 xl:bottom-0 -bottom-8 h-8 w-px -translate-x-1/2 bg-gradient-to-b from-[#4285F4] to-[#34A853]"/>
+                <div className="absolute left-1/2 xl:top-0 -top-8 h-8 w-px -translate-x-1/2 bg-gradient-to-b from-[#4285F4] to-[#34A853]"/>
+                <div className="absolute left-1/2 xl:bottom-0 -bottom-8 h-8 w-px -translate-x-1/2 bg-gradient-to-b from-[#4285F4] to-[#34A853]"/>
               </>
             )
           }
@@ -114,7 +114,7 @@ function TimelineItem({ event, isLeft, index }) {
             <div className="absolute top-[calc(50%-16px)] right-[calc(50%-8px)] h-4 w-4">
               <div className={`absolute h-4 w-4 animate-ping rounded-full ${colorsLowOp[index%4]}`}/>
               <div className={`absolute h-4 w-4 rounded-full ${colors[index%4]}`}/>
-              <div className="absolute h-0.5 xl:w-14 w-10 top-[50%] left-[100%] z-[-1] bg-cyan-500"/>
+              <div className="absolute h-0.5 xl:w-14 w-10 top-[50%] left-[100%] bg-cyan-500"/>
             </div>
         )
       }
@@ -143,7 +143,7 @@ function TimelineItem({ event, isLeft, index }) {
           <div className={`absolute top-[calc(50%-16px)] left-[calc(50%-8px)] h-4 w-4`}>
             <div className={`absolute h-4 w-4 animate-ping rounded-full ${colorsLowOp[index%4]}`}/>
             <div className={`absolute h-4 w-4 rounded-full ${colors[index%4]}`}/>
-            <div className="absolute h-0.5 xl:w-12 w-8 top-[50%] right-[100%] z-[-1] bg-cyan-500"/>
+            <div className="absolute h-0.5 xl:w-12 w-8 top-[50%] right-[100%]  bg-cyan-500"/>
           </div>
         )
       }

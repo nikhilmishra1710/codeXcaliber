@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      "allowJs": true,
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "outDir": "./dist" // Specify output directory for compiled files
+    },
+    "exclude": ["node_modules"]
+  }
+  
