@@ -35,7 +35,7 @@ export default function Vo() {
   const width = useWidth()
 
   return (
-    <div className="min-h-screen w-full mb-4">
+    <div className="min-h-screen max-w-screen w-full overflow-hidden mb-4">
       <div className="mx-auto max-w-6xl">
         {/* Header */}
         <motion.div 
