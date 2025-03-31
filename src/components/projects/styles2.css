@@ -26,6 +26,8 @@
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    align-items: center;
+    justify-items: center;
 }
 
 .project-card {
@@ -135,7 +137,7 @@
 .modal-content {
     background-color: #222;
     color: #fff;
-    margin: 15% auto;
+    margin: 8% auto;
     /* Centered */
     padding: 30px;
     border-radius: 8px;
@@ -163,7 +165,7 @@ strong {
 }
 
 .repo-link {
-    color: #f15a26;
+    /* color: #f15a26; */
     text-decoration: none;
 }
 

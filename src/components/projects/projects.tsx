@@ -2,13 +2,6 @@ import React from "react";
 import "./styles2.css";
 import ProjectCard from "./ProjectCard";
 import { projectDetails } from "./projectDetails";
-interface Project {
-    title: string;
-    author: string;
-    tags: string[];
-    gitLink: string;
-    description: string;
-}
 
 const Projects = () => {
     return (
