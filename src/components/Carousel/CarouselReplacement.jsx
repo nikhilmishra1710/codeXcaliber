@@ -13,7 +13,7 @@ const CarouselReplacement = () => {
                 {/* <!-- Card 1 --> */}
                 <div className="project-card">
                     <h2 className="justify-center flex text-center">Interview Buddy</h2>
-                    <img src="images/sponsors/Interview_Buddy.png" alt="Interview Buddy" className="project-image" />
+                    <img src="images/sponsors/Interview_Buddy.jpeg" alt="Interview Buddy" className="project-image" />
                 </div>
 
 
